@@ -31,7 +31,7 @@ func swap(a int, b int) {
 }
 
 func swap2(a *int, b *int) {
-	var temp int = *a
-	*a = *b
-	*b = temp
+	var temp int = *a //temp = main::a
+	*a = *b           //main::a = main::b
+	*b = temp         //main::b = temp
 }
