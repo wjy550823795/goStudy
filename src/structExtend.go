@@ -17,7 +17,7 @@ func (this *Human) Walk() {
 /*==============================================*/
 // 子类
 type SuperMan struct {
-	Human
+	Human //把父类对象注入到子类属性中,和java差异很大
 	level int
 }
 
