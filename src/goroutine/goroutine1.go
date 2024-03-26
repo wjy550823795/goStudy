@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// 子goroutine
 func newTask() {
 	i := 0
 	for {
@@ -14,6 +15,7 @@ func newTask() {
 	}
 }
 
+// 主goroutine
 func main() {
 	//创建一个go程 去执行newTask()流程
 	go newTask()
