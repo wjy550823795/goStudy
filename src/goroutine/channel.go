@@ -1,5 +1,8 @@
 package main
 
+/**
+无缓存的channel
+*/
 import (
 	"fmt"
 	//"time"
